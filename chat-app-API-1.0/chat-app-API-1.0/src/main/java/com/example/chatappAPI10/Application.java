@@ -2,8 +2,10 @@ package com.example.chatappAPI10;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages = { "com.example.chatappAPI10.DTO.OTPDetails" })
 public class Application {
 
 	public static void main(String[] args) {
